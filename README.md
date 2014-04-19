@@ -1,4 +1,4 @@
-visitemap
+Visitemap
 =========
 
-Projet visitemap
+Visitemap, un portail collaboratif de circuits touristiques.
