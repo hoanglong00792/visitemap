@@ -1,0 +1,77 @@
+/*.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    font-size: 30px;
+}
+
+.rating span.star:hover:before,
+.rating span.star:hover ~ span.star:before {
+    content: "\f005";
+    color: #e3cf7a;
+}
+
+.rating span.star:before {
+    content: "\f006";
+    color: #999;
+}*/
+
+.rating span.star {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+}
+
+#dragandrop {
+    border: 2px dotted #0B85A1;
+    width: 400px;
+    color: #92AAB0;
+    text-align: left;
+    vertical-align: middle;
+    padding: 10px 10px 10 10px;
+    margin-bottom: 10px;
+    font-size: 200%;
+}
+
+.button {
+
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+.button:hover {
+    color: #333;
+    background-color: #ebebeb;
+    border-color: #adadad;
+}
+
+#add_video_link {
+   margin-top: 2px;
+}
+
+#add_video_link:hover{
+    color:green;
+}
+
+.succes {
+    background-color: #33CC33;
+    border-radius: 5px;
+    padding: 15px 0px;
+    text-align: center;
+}
