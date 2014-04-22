@@ -6,13 +6,18 @@
 <link rel="stylesheet" href="<?php echo css_url('font-awesome/css/font-awesome.min') ?>">
 <link rel="stylesheet" href="<?php echo css_url('css_ajout_pointinteret') ?>">
 <link rel="stylesheet" href="<?php echo css_url('Jquery-ui/jquery-ui-1.10.4.custom.min') ?>">
+<link rel="stylesheet" href="<?php echo css_url('Fancybox/jquery.fancybox') ?>">
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 <script src="<?php echo js_url('jquery-ui-1.10.4.custom.min') ?>"></script>
 <script src="<?php echo js_url('jquery.raty') ?>"></script>
 <script src="<?php echo js_url('js_ajout_pointinteret') ?>"></script>
+<script src="<?php echo js_url('js_ajout_pointinteret') ?>"></script>
+<script src="<?php echo js_url('fancybox/jquery.fancybox.pack') ?>"></script>
 
 
+
+<title> VisiteMap </title>
 <h1> VisiteMap </h1>
 
 
@@ -49,7 +54,7 @@
                         <label for="name_input" class="right"> Nom </label>
                     </div>
                     <div class="small-6 columns">
-                        <input id="name_input" type="text" name="name"/>
+                        <input id="name_input" type="text" name="name" required="required"/>
                     </div>
                     <div class="small-1 columns"></div>
                 </div>
@@ -79,9 +84,12 @@
                         <label for="location_input" class="right"> Position </label>
                     </div>
                     <div class="small-3 columns">
-                        <input id="location_input" type='text' name='location'/>
+                        <input id="location_input" type='text' name='location' required="required"/>
+
                     </div>
-                    <i class="fa fa-globe fa-2x"></i>
+                    <a class="various fancybox.iframe" href="http://maps.google.com/?output=embed&amp;f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=London+Eye,+County+Hall,+Westminster+Bridge+Road,+London,+United+Kingdom&amp;hl=lv&amp;ll=51.504155,-0.117749&amp;spn=0.00571,0.016512&amp;sll=56.879635,24.603189&amp;sspn=10.280244,33.815918&amp;vpsrc=6&amp;hq=London+Eye&amp;radius=15000&amp;t=h&amp;z=17">
+                        <i class="fa fa-globe fa-2x"></i>
+                    </a>
                 </div>
                 <div class="row">
                     <div class="small-3 columns">
@@ -110,7 +118,7 @@
                         <label for="description_input" class="right"> Description </label>
                     </div>
                     <div class="small-9 columns">
-                        <textarea id="description_input" rows="4" cols="45" name="description"/></textarea>
+                        <textarea id="description_input" rows="4" cols="45" name="description" required="required"/></textarea>
                     </div>
                 </div>
                 <div class="row">

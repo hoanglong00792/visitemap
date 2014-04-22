@@ -12,7 +12,7 @@
 <script src="<?php echo js_url('jquery.raty') ?>"></script>
 <script src="<?php echo js_url('js_ajout_pointinteret') ?>"></script>
 
-
+<title> VisiteMap </title>
 <h1> VisiteMap </h1>
 
 
